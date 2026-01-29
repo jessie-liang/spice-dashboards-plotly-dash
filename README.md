@@ -15,9 +15,12 @@ global economy, which are the key metrics this dashboard aims to illustrate grap
 Please find the published version of this dashboard here:
 <https://jessieliang.pythonanywhere.com>
 
+When viewing the dashboard, please make sure the browser window is large enough
+(full screen is recommended), so that the contents can be displayed properly.
+
 ## Run source code
 
-### Clone the repo
+### Step 1: Clone the repo
 
 Run the following command in bash terminal:
 
@@ -27,7 +30,7 @@ git clone https://github.com/jessie-liang/spice-dashboards-plotly-dash.git
 
 Then change the working directory to this cloned repo using `cd`.
 
-### Environment setup
+### Step 2: Environment setup
 
 Using environment.yml, run the following code in bash terminal:
 
@@ -38,7 +41,7 @@ conda activate plotly_dash_env
 
 Then the environment called `plotly_dash_env` will be created and activated.
 
-### Run the analysis code
+### Step 3: Run the analysis code
 
 #### Way 1: run it in jupyter lab
 
@@ -51,26 +54,20 @@ jupyter lab
 
 to open the jupyter lab in your browser. Then locate to `source_code.ipynb` under `src/` folder,
 click "restart kernel and run all cells" in jupyter lab. At the end of the notebook, a link
-will be generated: <http://127.0.0.1:8050>
-
-Click this link and the generated dashboard will be shown.
+will be generated: <http://127.0.0.1:8050> Click this link and the generated dashboard will be shown.
 
 #### Way 2: run it in terminal
 
 Double check the current directory is the root directory of this project, and the environment
-`plotly_dash_env` has been activated.
-
-Then it the bash terminal, run the following code:
+`plotly_dash_env` has been activated. Then it the bash terminal, run the following code:
 
 ```bash
 python src/source_code.py
 ```
 
-A link will also be generated: <http://127.0.0.1:8050/>
+A link will also be generated: <http://127.0.0.1:8050/> Copy this link to a browser and the dashboard will be shown.
 
-Copy this link to a browser and the dashboard will be shown.
-
-## Dataset details
+## Source dataset
 
 Source: <https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption>
 
