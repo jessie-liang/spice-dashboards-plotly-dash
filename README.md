@@ -39,6 +39,24 @@ year is changed.
 the happening time of El Nino, though the root cause still needs to be examined more thoroughly.
 - Global net trade and self-sufficiency ratio are quite volatile.
 
+### Tab 2: Continental Analysis
+
+This tab shows how these five continents (Africa, America, Asia, Europe, Oceania) 
+contribute to the global total of the selected spice metric in percentage terms. 
+When hovering over the boundary line that separates any two continents in the 
+first plot, the raw values of the selected spice metric for that hovered year 
+across all five continents will appear as a bar chart in the second plot.
+
+- Only the metric can be selected.
+- The clickable button will download an aggregated dataset showing the import,
+export, production and consumption data per continent per year.
+
+**Interesting findings**:
+
+- Asia is consistently the biggest spice consumer and producer.
+- Europe, Asia and America are the major spice importers and exporters.
+- Oceania accounts for the smallest proportion for all four metrics.
+
 ## Run source code
 
 ### Step 1: Clone the repo
