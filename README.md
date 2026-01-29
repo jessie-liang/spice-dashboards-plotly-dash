@@ -145,6 +145,15 @@ A link will also be generated: <http://127.0.0.1:8050/> Copy this link to a brow
 
 Source: <https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption>
 
+## Contributing
+
+Currently this project is read-only. But everyone is welcome to provide feedback
+by creating an issue or directly sending an email to Jessie Liang.
+
+## License
+
+This project’s source code is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for details.
+
 ## Author
 
 ### Jessie Liang
