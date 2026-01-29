@@ -70,6 +70,20 @@ their world rank for this chosen metric over the selected time span.
 - Start/end year can be typed in the input boxes. If start year is later than
 end year, a red error message will appear and plots cannot be generated.
 
+**Feel free to compare any countries you're interested in!**
+
+### Tab 4: Top-5 Countries
+
+Based on the selected metric, year, and the comparison scope, a bar chart
+of the top 5 countries is shown as the first visual, displaying the raw values
+of this selected metric in the selected year and scope. A summary table on the
+right-hand-side will demonstrate the numeric market share of these top five countries
+in terms of the selected metric within the selected year and scope.
+
+- Only one metric, year and comparison scope can be selected
+
+**Use it for discovering the top 5 giants!**
+
 ## Run source code
 
 ### Step 1: Clone the repo
