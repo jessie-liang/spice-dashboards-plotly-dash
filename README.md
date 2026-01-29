@@ -18,6 +18,27 @@ Please find the published version of this dashboard here:
 When viewing the dashboard, please make sure the browser window is large enough
 (full screen is recommended), so that the contents can be displayed properly.
 
+## Introduction to each tab
+
+### Tab 1: Global Overview
+
+This tab provides a global overview of spice imports, exports, production, consumption, 
+net trade and self-sufficiency ratio for a selected year, as well as the global trend 
+of the chosen metric across all available years. The data used ranges from 1993 to 2023.
+
+- The interactive panel is in the leftmost column: two dropdown lists to select metric & year,
+and a clickable button to download the raw data (the source data without manipulation).
+- The first plot (global map) will be updated if either the metric or the year is changed
+- The second line chart only depends on the metric, and will not be updated if only the input
+year is changed.
+
+**Interesting findings**:
+
+- Global import and export have been increasing over the years.
+- Global production and consumption encountered a noticeable drop in 2014 and 2015, which matched
+the happening time of El Nino, though the root cause still needs to be examined more thoroughly.
+- Global net trade and self-sufficiency ratio are quite volatile.
+
 ## Run source code
 
 ### Step 1: Clone the repo
