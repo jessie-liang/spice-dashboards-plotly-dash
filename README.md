@@ -28,7 +28,7 @@ of the chosen metric across all available years. The data used ranges from 1993 
 
 - The interactive panel is in the leftmost column: two dropdown lists to select metric & year,
 and a clickable button to download the raw data (the source data without manipulation).
-- The first plot (global map) will be updated if either the metric or the year is changed
+- The first plot (global map) will be updated if either the metric or the year is changed.
 - The second line chart only depends on the metric, and will not be updated if only the input
 year is changed.
 
@@ -56,6 +56,19 @@ export, production and consumption data per continent per year.
 - Asia is consistently the biggest spice consumer and producer.
 - Europe, Asia and America are the major spice importers and exporters.
 - Oceania accounts for the smallest proportion for all four metrics.
+
+### Tab 3: Country-level Dive
+
+This tab demonstrates country-level values of the selected spice metric 
+across the selected years in the first plot. More specifically, selected countries 
+are compared against one another, each as a uniquely colored line. 
+In the second line chart, the same selected countries are compared in terms of 
+their world rank for this chosen metric over the selected time span.
+
+- One or more than one countries can be selected.
+- Only one metric is selectable.
+- Start/end year can be typed in the input boxes. If start year is later than
+end year, a red error message will appear and plots cannot be generated.
 
 ## Run source code
 
