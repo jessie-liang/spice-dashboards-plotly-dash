@@ -22,6 +22,8 @@ When viewing the dashboard, please make sure the browser window is large enough
 
 ### Tab 1: Global Overview
 
+![Layout of Tab 1](img/tab1.png)
+
 This tab provides a global overview of spice imports, exports, production, consumption, 
 net trade and self-sufficiency ratio for a selected year, as well as the global trend 
 of the chosen metric across all available years. The data used ranges from 1993 to 2023.
@@ -41,6 +43,8 @@ the happening time of El Nino, though the root cause still needs to be examined 
 
 ### Tab 2: Continental Analysis
 
+![Layout of Tab 2](img/tab2.png)
+
 This tab shows how these five continents (Africa, America, Asia, Europe, Oceania) 
 contribute to the global total of the selected spice metric in percentage terms. 
 When hovering over the boundary line that separates any two continents in the 
@@ -59,6 +63,8 @@ export, production and consumption data per continent per year.
 
 ### Tab 3: Country-level Dive
 
+![Layout of Tab 3](img/tab3.png)
+
 This tab demonstrates country-level values of the selected spice metric 
 across the selected years in the first plot. More specifically, selected countries 
 are compared against one another, each as a uniquely colored line. 
@@ -73,6 +79,8 @@ end year, a red error message will appear and plots cannot be generated.
 **Feel free to compare any countries you're interested in!**
 
 ### Tab 4: Top-5 Countries
+
+![Layout of Tab 4](img/tab4.png)
 
 Based on the selected metric, year, and the comparison scope, a bar chart
 of the top 5 countries is shown as the first visual, displaying the raw values
